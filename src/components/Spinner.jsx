@@ -7,6 +7,7 @@ const override = {
 }
 
 
+// eslint-disable-next-line react/prop-types
 const Spinner = ({ loading }) => {
   return (
     <ClipLoader 
