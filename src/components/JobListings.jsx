@@ -2,6 +2,7 @@
 import jobs from "../jobs.json";
 import JobListing from "./JobListing";
 
+// eslint-disable-next-line react/prop-types
 const JobListings = ({ isHome = false }) => {
 
     const jobListings = isHome ? jobs.slice(0, 3) : jobs
